@@ -131,6 +131,7 @@ body{
 	border-bottom-width: 1px;
 	border-bottom-color: lightgrey;
 	height: 40px;
+	margin-bottom: 10px;
 }
 .top p{
 	margin-top: 7px;
@@ -140,8 +141,8 @@ body{
 	color: #ffc107;
 }
 .update{
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 label{
 	color: black;
@@ -149,14 +150,60 @@ label{
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+.input-2{/*
+	padding-left: 25px;
+	padding-right: 25px;*/
+}
 .input-2 input{
 	margin-top: 5px;
 	margin-bottom: 5px;
-	padding: 12px;
+	padding: 15px;
 	width: 10%;
 }
-.input-lg input{
-	height: 100%;
+#input-lg{
+	overflow: hidden;
+	padding: 70px;
+}
+hr{
+	width: 100%;
+}
+.button{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	display: inline;
+}
+.btn-save{
+	margin-bottom: 20px;
+	margin-top: 25px;
+	background-color: transparent;
+	display: inline-block;
+	border-radius: 3px;
+	font: 700 13px/18px Helvetica, arial;
+	background: #f9a206 linear-gradient(#f9a206, #f9a206) repeat-x;
+	font-size: 13px;
+	color: #fff;
+	width: 20%;
+	height: 10%;
+	margin-left: 42%;
+	border-style: hidden;
+}
+
+.btn-del{
+	float: right;
+	margin-bottom: 20px;
+	margin-top: 25px;
+	margin-right: 10px;
+	background-color: transparent;
+	display: inline-block;
+	border-radius: 3px;
+	font: 700 13px/18px Helvetica, arial;
+	background: grey linear-gradient(grey, grey) repeat-x;
+	font-size: 13px;
+	color: #fff;
+	width: 30%;
+	height: 10%;
+	/*margin-left: 42%;*/
+	border-style: hidden;
 }
 
 .headertwo{
